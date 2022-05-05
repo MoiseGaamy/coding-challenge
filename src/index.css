@@ -6,8 +6,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* header css style*/
+.form-style{
+  margin:0.5rem 7rem 0 0 !important;
+}
+.custom-item{
+margin: 0 1rem 0 1rem;
+align-self: center;
+}
+.custom-navbar{
+    padding: 1rem 0 0 0!important;
+}
+/*main container*/
+.main-container{
+  margin: 3rem;
+}
+.custom-profile{
+    margin: 0 0 0 3rem;
+}
+.custom-dashboard{
+  margin-left:2rem;
 }
