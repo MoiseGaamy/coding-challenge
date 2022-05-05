@@ -1,0 +1,36 @@
+/*footer*/
+.custom-heading{
+  margin-left:2.5rem;
+}
+.footer-link>a{
+  color:grey!important;
+}
+/*icon*/
+.icon-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: white;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.icon-insta{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: darkcyan;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.bottom-text{
+  display: flex;
+  justify-content:"space-between"!important;
+}
