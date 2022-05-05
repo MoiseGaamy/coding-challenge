@@ -1,8 +1,14 @@
+import Header from "./components/Header.js";
+import Main from "./components/Main.js";
+import Footer from "./components/Footer.js";
+import './css/app.css'
 
 function App() {
   return (
     <div className="fluid-container">
-         <h1>hello world</h1>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
