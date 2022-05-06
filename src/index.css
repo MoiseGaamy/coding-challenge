@@ -35,3 +35,62 @@ align-self: center;
    margin-left: 0!important;
    width:122%;
 }
+
+/*NavBar Responsibleness*/
+@media (max-width:740px) and (min-width:360px) {
+    .mynav {
+    margin-right: 0!important;
+}
+.custom-item {
+    margin: 0 !important;
+    align-self: baseline!important;
+}
+.custom-profile {
+    margin: 0 0 2rem 0!important;
+    padding-left: 0!important;
+}
+.custom-dashboard {
+    margin-left: 0!important;
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+.main-row {
+    margin-right: 0!important; 
+     margin-left: 0!important; 
+     width: 105%;
+}
+.main-row2 {
+    margin-right: 0!important;
+    margin-left: 0!important;
+    width: 100%;
+}
+}
+/*NavBar Responsibleness mini pad 768 and 1024*/
+@media (max-width:1024px) and (min-width:768px) {
+    .mynav {
+    margin-right: 25!important;
+}
+
+.custom-item {
+    margin: 0 36rem 0 0rem!important;
+    align-self: center;
+}
+.main-container {
+    margin: 1rem;
+}
+.profile-container {
+    margin: 0 5rem 2rem 4rem;
+}
+.camera-icon {
+    right: 125px!important;
+}
+.custom-dashboard {
+    margin: 0 0 2rem 2rem;
+}
+.main-row {
+    width: 118%;
+}
+.main-row2 {
+    width: 147%;
+}
+}
