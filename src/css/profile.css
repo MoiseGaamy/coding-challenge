@@ -60,3 +60,11 @@
      background-color: #fff!important;
    
 }
+/*footer Responsibleness mini pad 768 and 1024*/
+@media (max-width:1024px) and (min-width:768px) {
+
+.camera-icon {
+    right: 125px;
+}
+
+}
