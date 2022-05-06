@@ -1,10 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ background-color:#F2F2F2;
 }
 /* header css style*/
 .form-style{
@@ -17,13 +13,25 @@ align-self: center;
 .custom-navbar{
     padding: 1rem 0 0 0!important;
 }
+.mynav{
+   margin-right: 4rem;
+}
+.custom-input-group-text2{
+    background-color: #016450!important;
+    border: 1px solid #016450!important;
+}
 /*main container*/
 .main-container{
-  margin: 3rem;
+  margin: 2rem;
 }
 .custom-profile{
     margin: 0 0 0 3rem;
 }
 .custom-dashboard{
-  margin-left:2rem;
+  margin-left:1rem;
+}
+.main-row{
+   margin-right: 0!important;
+   margin-left: 0!important;
+   width:122%;
 }
