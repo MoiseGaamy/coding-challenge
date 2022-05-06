@@ -10,13 +10,13 @@ export default function Header() {
   </button>
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul className="navbar-nav m-auto">
+    <ul className="navbar-nav mynav ml-auto">
       <form className="form-inline form-style my-2 my-lg-0">
         <div className="input-group mb-2 mr-sm-2">
           <input type="text" className="form-control" id="inlineFormInputGroupUsername2" placeholder="Add More"/>
           <div className="input-group-prepend">
-            <div className="input-group-text">
-             <BiSearch/>
+            <div className="input-group-text custom-input-group-text2">
+             <BiSearch color='#fff'/>
             </div>
           </div>
         </div>
