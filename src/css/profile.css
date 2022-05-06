@@ -1,0 +1,62 @@
+/*profile*/
+.profile-container{
+  background-color: #fff;
+ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ border-radius: 10px;
+ width: 105%;
+}
+.img-style{
+  width: 95px;
+  height: 95px;
+  border-radius: 45px;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+.camera-icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 17px;
+    background-color: #016450;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position:absolute;
+    top: 80px;
+    right: 110px;
+}
+.profile-style{
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+.edit-btn{
+    background-color: #016450!important;
+    border-color: #016450!important;
+    color: #fff;
+}
+.profile-category{
+  padding: 0 1rem 0.5rem 1rem;
+}
+.profile-cg-icon{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.category-text{
+    font-size: 1.2rem;
+}
+.profile-link-text{
+    margin: 2rem 0 0 0 ;
+}
+.line{
+    margin-top: 0.5rem!important;
+    margin-bottom: 0.5rem!important;
+    border: 0;
+    border-top: 1px solid #dae0e5;
+}
+.custom-input-group-text { 
+    padding: 0.3rem 0.3rem 0 0.5rem!important;
+     background-color: #fff!important;
+   
+}
