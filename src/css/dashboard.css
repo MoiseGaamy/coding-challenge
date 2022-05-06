@@ -1,0 +1,73 @@
+.dashboard-container{
+ background-color: #fff;
+ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+ border-radius: 10px;
+}
+.dashboard-custom-container{
+    padding:1.5rem;
+    justify-content:space-evenly;
+}
+.custom-progress{
+    height: 0.3rem!important;
+}
+.custom-Sales-container{
+    border: 0.3px solid rgb(216, 207, 207);
+    border-radius: 5px;
+    padding:1.5rem;
+    margin:0.5rem;
+}
+.sale-inner-container{
+    display: flex;
+    justify-content:space-between
+}
+.custom-bg-success{
+    background-color:#016450!important;
+}
+.custom-bg-yellow{
+    background-color:#ff8433!important;
+}
+.suitcase-container{
+    display: flex;
+    justify-content: space-around;
+    padding:0.5rem 0 0 0;
+}
+.suitcase-styling{
+    background-color: #016450;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-styling{
+    background-color: #facf55;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom-Total,.custom-Total-chart{
+     border: 0.3px solid rgb(216, 207, 207);
+    border-radius: 5px;
+    margin:0.5rem;
+}
+.custom-Total-col1{
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+.total-sale{
+     margin:0;
+}
+.daily-profit{
+    display: flex;
+    justify-content: space-between;
+    padding:0.5rem 0.5rem 2rem 0.5rem;
+}
+.main-row2{
+   margin-right: 0!important;
+   margin-left: 0!important;
+   width:125%;
+}
