@@ -1,7 +1,7 @@
 import React from 'react'
 export default function DashCart({name,goal,percentage,secondPercent,year,color,barColor}) {
   return (
-    <div className="col-lg-3 col-md-4 col-sm-6 custom-Sales-container">
+    <div className="col-lg-3 col-md-5 col-sm-6 custom-Sales-container">
                   <div className="sale-inner-container">
                       <h6>{name}</h6>
                       <p>{goal}</p>
