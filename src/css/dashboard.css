@@ -71,3 +71,17 @@
    margin-left: 0!important;
    width:125%;
 }
+/*NavBar dashboard*/
+@media (max-width:740px) and (min-width:360px) {
+.main-row2 {
+    margin-right: 0!important;
+    margin-left: 0!important;
+    width: 100%;
+}
+.sm-row{
+     display: flex;
+    flex-wrap: nowrap;
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+}
